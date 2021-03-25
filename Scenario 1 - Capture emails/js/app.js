@@ -7,9 +7,7 @@ window.onload = function(){
     emailModal.classList.remove('email-modal--visible')
   })
 
-  console.log(emailModal)
-  console.log(closeModal)
-  document.addEventListener('mouseleave', () => {
+  document.body.addEventListener('mouseleave', () => {
     emailModal.classList.add('email-modal--visible')
   })
 }
